@@ -1,0 +1,40 @@
+.ItemDescr {
+    width: 50%;
+    margin: 50px auto;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+
+.ItemDescr span {
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    padding: 8px;
+
+}
+
+.Name {
+    height: 120px;
+    background-color:#FFE4B5;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Name p {
+    color: #808080;    
+    padding: 0;
+    margin: 0;
+}
+
+.Name h3 {
+    text-transform: capitalize;
+    padding: 0; 
+    margin: 4px;
+}
+
