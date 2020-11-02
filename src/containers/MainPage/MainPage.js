@@ -39,7 +39,7 @@ class HomePage extends React.Component {
         } else if (!this.state.isLoading) {
             page =(<Switch>
                 <Route path='/' 
-                       exact 
+                       exact
                        render={(props) => <SearchPage {...props} beers={this.state.randomBeers} pokemons={this.state.randomPokemons} />} />
                 <Route path='/:name' component={ItemPage} />
             </Switch>)

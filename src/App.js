@@ -7,7 +7,7 @@ class App extends React.Component {
 
   render() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename='/beers_and_pokemons'>
           <MainPage />
         </BrowserRouter>
     
