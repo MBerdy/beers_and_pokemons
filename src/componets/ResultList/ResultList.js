@@ -19,7 +19,6 @@ class ResultList extends React.Component {
     }
 
     render() {
-        console.log(this.props.searchResults)
         let resultsList;
         if (this.props.searchResults) {
             resultsList = this.props.searchResults.map(el => (

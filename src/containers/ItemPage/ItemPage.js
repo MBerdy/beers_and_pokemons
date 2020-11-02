@@ -21,7 +21,6 @@ class ItemPage extends React.Component {
         for (let param of query.entries()) {
             item[param[0]] = param[1];
         }
-        console.log(item);
 
         if(item.type === 'beer') {
             axios.get(`https://api.punkapi.com/v2/beers?beer_name=${item.name}`)
@@ -47,7 +46,6 @@ class ItemPage extends React.Component {
     }
 
     render() {
-        console.log(this.state.error)
         let page ;
         if(this.state.isLoading) {
             page = <Spinner />
